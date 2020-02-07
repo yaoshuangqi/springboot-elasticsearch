@@ -43,4 +43,4 @@ sudo service elasticsearch start
 
 有一些坑是我领导踩得，部分代码已得授权。
 
-分支创建ysqhox
+分支创建ysqhox,进行本地测试
