@@ -1,0 +1,33 @@
+###解析身份证号码，并判断是否在预警城市
+POST http://{{host}}/{{clientPath}}
+    /elasticsearch
+    /queryOrder
+Content-Type: {{contentType}}
+
+#请求体参数
+{}
+
+<> 2020-02-27T114743.200.json
+
+
+
+###查询预警消息
+POST http://{{host}}/{{clientPath}}/proj/message/getMessageCount
+Content-Type: {{contentType}}
+uid: {{uid}}
+pid: {{pid}}
+
+{}
+
+<> 2020-02-27T111647.200.json
+###
+
+
+POST http://172.21.2.146:8082/{{clientPath}}/proj/message/getMessageCount
+Content-Type: {{contentType}}
+uid: {{uid}}
+pid: {{pid}}
+
+{}
+
+###

@@ -79,7 +79,7 @@ public class QueryServiceTest {
     public void testInsertById(){
         Es es = new Es("search_index","search_index");
         List<Map<String, Object>> list = queryService
-                .queryListFromES(es, 13,"旗舰店"+13, "2018-12-01", "2018-12-31");
+                .queryListFromES(es, 13,"旗舰店"+13, "2020-02-29", "2020-03-01");
         System.out.println(JSON.toJSONString(list));
     }
 

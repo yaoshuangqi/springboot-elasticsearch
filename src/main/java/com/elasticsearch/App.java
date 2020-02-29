@@ -7,12 +7,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * Created by baishuai on 2017/8/24.
+ * Created by yaoshuangqi on 2020/01/24.
  */
 @SpringBootApplication
 public class App {
 
-    private static final Logger logger = LoggerFactory.getLogger(ElasticSearchConfig.class);
+    private static final Logger logger = LoggerFactory.getLogger(App.class);
 
     public static void main(String[] args) {
         SpringApplication.run(App.class, args);
