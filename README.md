@@ -41,21 +41,3 @@ sudo service elasticsearch start
 
 [BulkProcessor](https://www.elastic.co/guide/en/elasticsearch/client/java-api/current/java-docs-bulk-processor.html)
 
-有一些坑是我领导踩得，部分代码已得授权。
-
-分支创建ysqhox,进行本地测试
-
-先在分支上开发了
-
---------
-
-
-改变了，插入。
-
---------
-更新旧的
-------
-我需要把开发后的分支，合并到主分支上去。
-
--------
-新建

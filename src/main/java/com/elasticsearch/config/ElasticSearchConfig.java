@@ -41,6 +41,10 @@ public class ElasticSearchConfig {
 
     private TransportClient transportClient;
 
+    /**
+     * 创建TransportClient实例，并注入到容器
+     * @return
+     */
     @Bean
     public TransportClient transportClient(){
         Settings settings = Settings.EMPTY;
@@ -60,6 +64,12 @@ public class ElasticSearchConfig {
         return transportClient;
     }
 
+    /**
+     * 构造BulkProcessor，实现批量请求，根据请求数量，大小，固定频率进行flush提交
+     * 并注入到容器
+     * @return
+     * @throws UnknownHostException
+     */
     @Bean
     public BulkProcessor bulkProcessor() throws UnknownHostException {
 
